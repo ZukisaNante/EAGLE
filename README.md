@@ -91,6 +91,13 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 > - https://www.youtube.com/watch?v=1juc7_7gnB0
 > - https://www.youtube.com/watch?v=WQzLrvz4DKQ
 ---
+### LICENSE TERMS
+
+> - MICROSOFT SOFTWARE LICENSE TERMS (under MIT)
+> - vs code is free so as their templates but all that is respective to the microsoft license.
+> - As junior developers of BeCode we preseve limited rights of our code but also use the MIT Licence.
+> - Image rights: https://jetpackaviation.com/
+---
 Any questions? If yes, then give us a call from the mobile number available from our website (see the link at the top of the page.)
 
 

@@ -95,7 +95,7 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 ### LICENSE TERMS
 
 > - MICROSOFT SOFTWARE LICENSE TERMS (under MIT)
-> - vs code is free so as their templates but all that is respective to the microsoft license.
+> - vs code is free and has a lot of extensions and one of them is Bulma (dependency) is respective to the microsoft license.
 > - As junior developers of BeCode we preseve limited rights of our code but also use the MIT Licence.
 > - Image rights: https://jetpackaviation.com/
 ---

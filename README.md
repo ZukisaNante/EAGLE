@@ -94,8 +94,8 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 ---
 ### LICENSE TERMS
 
-> - Bulma Framework
-> - EAGLE MIT Licence.
+> - Bulma Framework (Copyright (c) 2019 Jeremy Thomas)
+> - EAGLE MIT Licence (Copyright (c) 2019 Zukisa, Johnny, Ilger, Jan)
 > - Image rights: https://jetpackaviation.com/
 ---
 Any questions? If yes, then give us a call from the mobile number available from our website (see the link at the top of the page.)

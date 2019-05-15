@@ -29,7 +29,7 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 
 # Safety
 
-![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/jetpack-kit.jpg"The Future")
+![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/jetpack-kit.jpg "The Future")
 
 - All our jetpacks abide to the ISO standards under International Electrotechnical Commission (IEC).
 - Our motto "safety comes first" is one of the priorities we commit ourselves to serve.

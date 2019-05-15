@@ -1,3 +1,5 @@
+https://ilger.github.io/EAGLE/
+
 # EAGLE Company
 ![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/eagle.jpg "The Future")
 
@@ -19,8 +21,7 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 
 # How it works!
 
-- First of all download the app and will show you all the nearby stations/locations.
-- 
+- First of all download the app and it will show you all the nearby stations/locations.
 - Reach the location and select the choice of your jetpack.
 - Every jetpack has instructions in it on how to operate it safely.
 - Also emegency number is accessible and our technicians are 24/7 available!
@@ -28,15 +29,20 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 
 # Safety
 
-![alt text](https://www.researchgate.net/profile/Marcelo_Toso/publication/271712726/figure/fig2/AS:614224732622865@1523453996404/Part-of-the-Sequence-Diagram-Implementation-in-accordance-with-IEC-61131-The.png "The Future")
+![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/jetpack-kit.jpg"The Future")
+
 - All our jetpacks abide to the ISO standards under International Electrotechnical Commission (IEC).
 - Our motto "safety comes first" is one of the priorities we commit ourselves to serve.
 - Instructions are also provided in our app and at the station when you pick up your selected choice.
-- Our jetpacks cannot operate or start the engine withou alcohol and drugs test first.
+- Our jetpacks cannot operate or start the engine without alcohol and drugs test first.
 - Provided you are under any influence of any of the above mentioned substances the system will freeze the motor, meaning it won't work.
 
 # Locations
 
+![alt text](https://www.researchgate.net/profile/Marcelo_Toso/publication/271712726/figure/fig2/AS:614224732622865@1523453996404/Part-of-the-Sequence-Diagram-Implementation-in-accordance-with-IEC-61131-The.png "The Future")
+
 > We are situated everywhere in the world as you can see from our app.
 > Our opening times are the same at every location globally.
 > We are open 24/7.
+> At all times you sould be able to get hold of our help desk!
+>  :+1: 

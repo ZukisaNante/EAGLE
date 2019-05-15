@@ -46,3 +46,17 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 > We are open 24/7.
 > At all times you sould be able to get hold of our help desk!
 >  :+1: 
+
+---
+
+## BeCode Assignment
+
+> - Junior Web Developers were given a task to make a project by inventing a company and design its webside.
+> - They were a group of four with their names appearing on their website.
+
+---
+
+### Assignment Objectives
+
+> - 
+

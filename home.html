@@ -6,85 +6,153 @@
     <title>EAGLE</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/master.css">
-</head>
-</body>
-  <nav class="navbar is-fixed-top is-warning">
-     <div class="container">
-       <div class="navbar-brand">
-         <a class="navbar-item" href="#Home">
-           <h1><b>EAGLE</b></h1>
-         </a>
-         <span class="navbar-burger burger" data-target="navbarMenu" style="display: fixed;">
-           <span></span>
-           <span></span>
-           <span></span>
-         </span>
-       </div>
-       <div id="navbarMenu" class="navbar-menu">
-         <div class="navbar-end">
-           <a href="#Home" class="navbar-item">Home</a>
-           <a href="#HowItWorks" class="navbar-item">How it works</a>
-           <a href="#Safety" class="navbar-item">Safety</a>
-           <a href="#Locations" class="navbar-item">Locations</a>
-         </div>
-       </div>
-     </div>
-   </nav>
-<!-- start Zukisa page -->
-   <section id="Home" class="hero is-large is-warning">
-     <div class="hero-body">
-       <div class="card-deck">
-         <div class="card">
-           <img class="card-img-top" src="assets/img/history.jpg" alt="Card image cap">
-           <div class="card-body">
-             <h5 class="card-title">Engineer Harold Graham</h5>
-             <p class="card-text">Engineer Harold Graham, of Buffalo, N.Y., glides over a parked car during a demonstration of a rocket-powered jet pack, outside of the Pentagon in Arlington ....</p>
-             <p class="card-text"><small class="text-muted"><a href="https://www.bloomberg.com/research/stocks/private/person.asp?personId=59145037&privcapId=21942916&previousCapId=7960535&previousTitle=Mxi%20Technologies%20Ltd." class="href">Engineer Harold Graham</a></small></p>
-           </div>
-         </div>
-         <div class="card">
-           <img class="card-img-top" src="assets/img/against_car.jpg" alt="Card image cap">
-           <div class="card-body">
-             <h5 class="card-title">JetPack vs Cars</h5>
-             <p class="card-text">Our idea is to avoid traffic. Cars are comfortable and may look safer than a JetPack but
-               a JetPack provides better mobility, nice view, dependebility, and etc.
-             </p>
-             <div class="iframe-container">
+    <!-- Zukisa css -->
+    <!-- Johnny CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/JohnnyCSS/howitworks.css">
+    <link rel="stylesheet" href="Zukisacss/main.css">
 
-               <iframe class="iframe" width="150" height="100" src="https://www.youtube.com/embed/-kB-BGMXxZc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="
-               width: 100%;
-               height: 100%;
-               "></iframe>
+    <style>
+      /*Zukisa style*/
+      .parallax {
+  /* The image used */
+  background-image: url("assets/img/eagle.jpg");
+  padding: 70px;
 
-             </div>
-           </div>
-         </div>
-         <div class="card">
-           <img class="card-img-top" src="assets/img/bike.jpeg" alt="Card image cap">
-           <div class="card-body">
-             <h5 class="card-title">JetPack Speeder</h5>
-             <p class="card-text">One of the coolest things to do and with the enhancements of comfortability and safety.</p>
-             <p>Very high speed (faster than helicopter)</p>
-             <p>Fully autonomous with obstacle detection and collision avoidance and auto flight planning,
-               it can go as high as 15,000 ft </p>
-               <p class="card-text"><small class="text-muted"><a href="https://www.youtube.com/watch?v=0BgbPilrsyw" class="href">JetPack Speeder</a></small></p>
-             </div>
-           </div>
-         </div>
-         <div id="info">
-           <h2>Extra Information</h2>
-           <p>Our opening hours are as from 9am - 6pm world wide, but our help desk is 24/7.</p>
-           <span><a href="tel:+32489356786">Call us free on +32489356786!</a></span>
-         </div>
-       </div>
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flip-card {
+  background-color: transparent;
+  width:250px;
+  height: 300px;
+  perspective: 1000px;
+  padding:30px;
+
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  z-index: 2;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+
+
+    /* Johnny's inline style */
+      .how-head {
+       background: url(assets/img/howitworks2.jpg) center/cover;
+      }
+      .center-how{
+        display: flex;
+      justify-content: left;
+      align-items:center;
+      }
+    /* end Johhny style */
+    /* howitworks style Johnny*/
+    .howitworksParalax {
+      background: url(assets/img/howitworks2.jpg) center/cover;
+    }
+    .center-how{
+      display: flex;
+    justify-content: left;
+    align-items:center;
+    }
+    /* safety style Ilger */
+    .safetyParalax {
+      background: url(assets/img/safetyparalax.jpeg) center/cover;
+    }
+
+
+    /* Location style Jan*/
+    .location-head {
+        background: url(assets/img/Locationsheader.jpeg) center/cover;
+    }
+
+
+    /* paralax scrolling img */
+    .how-head {
+      /* The image used see above under .-topic-Paralax */
+
+      /* Set a specific height */
+      height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+
+    </style>
+
+   </head>
+
 
     <!-- start Zukisa page -->
-    <section id="Home" class="hero is-large is-warning">
+    <nav class="navbar is-fixed-top is-warning">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#Home">
+            <b>EAGLE</b>
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenu" style="display: fixed;">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="#Home" class="navbar-item">Home</a>
+            <a href="#HowItWorks" class="navbar-item">How it works</a>
+            <a href="#Safety" class="navbar-item">Safety</a>
+            <a href="#Locations" class="navbar-item">Locations</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="Safety" class="hero is-large is-warning">
+      <div class="hero-head  is-warning">
+      </div>
+
       <div class="hero-body">
         <div class="card-deck">
             <div class="card">
-              <img class="card-img-top" src="assets/img/history.jpg" alt="First Jetpack">
+              <img class="card-img-top" src="assets/img/history.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Engineer Harold Graham</h5>
                 <p class="card-text">Engineer Harold Graham, of Buffalo, N.Y., glides over a parked car during a demonstration of a rocket-powered jet pack, outside of the Pentagon in Arlington ....</p>
@@ -92,7 +160,7 @@
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="assets/img/against_car.jpg" alt="Jetpack vs Lamborghini">
+              <img class="card-img-top" src="assets/img/against_car.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">JetPack vs Cars</h5>
                 <p class="card-text">Our idea is to avoid traffic. Cars are comfortable and may look safer than a JetPack but
@@ -100,16 +168,16 @@
                 </p>
                 <div class="iframe-container">
 
-                <iframe class="iframe" width="150" height="100" src="https://www.youtube.com/embed/-kB-BGMXxZc" title="speeder video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="
+                <iframe class="iframe" width="150" height="100" src="https://www.youtube.com/embed/-kB-BGMXxZc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="
                 width: 100%;
                 height: 100%;
             "></iframe>
-
+      
               </div>
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="assets/img/bike.jpeg" alt="bike jetpack 'speeder' ">
+              <img class="card-img-top" src="assets/img/bike.jpeg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">JetPack Speeder</h5>
                 <p class="card-text">One of the coolest things to do and with the enhancements of comfortability and safety.</p>
@@ -136,7 +204,7 @@
                   <div class="flip-card">
                       <div class="flip-card-inner">
                         <div class="flip-card-front">
-                          <img src="assets/img/bike.jpeg" alt="Avatar Zukisa company owner" style="width:300px;height:250px;">
+                          <img src="assets/img/bike.jpeg" alt="Avatar" style="width:300px;height:250px;">
                         </div>
                         <div class="flip-card-back">
                           <h3>Zukisa Nante</h3>
@@ -148,7 +216,7 @@
                     <div class="flip-card">
                         <div class="flip-card-inner">
                           <div class="flip-card-front">
-                            <img src="assets/img/bike.jpeg" alt="Avatar Johnny company owner" style="width:300px;height:250px;">
+                            <img src="assets/img/bike.jpeg" alt="Avatar" style="width:300px;height:250px;">
                           </div>
                           <div class="flip-card-back">
                             <h3>Johhny</h3>
@@ -160,7 +228,7 @@
                       <div class="flip-card">
                           <div class="flip-card-inner">
                             <div class="flip-card-front">
-                              <img src="assets/img/bike.jpeg" alt="Avatar Ilger company owner" style="width:300px;height:250px;">
+                              <img src="assets/img/bike.jpeg" alt="Avatar" style="width:300px;height:250px;">
                             </div>
                             <div class="flip-card-back">
                               <h3>Ilger</h3>
@@ -172,7 +240,7 @@
                         <div class="flip-card">
                             <div class="flip-card-inner">
                               <div class="flip-card-front">
-                                <img src="assets/img/bike.jpeg" alt="Avatar Jan company owner" style="width:300px;height:250px;">
+                                <img src="assets/img/bike.jpeg" alt="Avatar" style="width:300px;height:250px;">
                               </div>
                               <div class="flip-card-back">
                                 <h3>Jan</h3>
@@ -197,13 +265,20 @@
 
 <!-- start Johnny page -->
 <section id="HowItWorks" class="hero is-info is-large">
-  <div class="hero-body howitworksParalax parallax">
+
+  <div class="hero-body how-head howitworksParalax">
     <div class="container has-text-centered">
       <p class="title how">
         How to Jetpack
+
+
+      </p>
+      <p class="subtitle">
+
       </p>
     </div>
   </div>
+
   <div class="hero-foot ">
     <nav class="tabs is-boxed is-fullwidth is-primary">
       <div class="container">
@@ -220,7 +295,7 @@
   <div class="container">
           <div class="columns" >
             <div class="column">
-              <img src="./assets/img/findandunlock.svg" style="max-width: 400px; max-height: 200px;" alt="showcasing how to start app">
+              <img src="./assets/img/findandunlock.svg" style="max-width: 400px; max-height: 200px;">
 
             </div>
               <div class="column">
@@ -260,7 +335,7 @@
           <figure class="image center-how">
               <div class="columns"  >
                 <div class="column">
-                  <img src="./assets/img/puttingonjetpack4.png" style="max-width: 250px; max-height: 250px;" alt="animated jetpack">
+                  <img src="./assets/img/puttingonjetpack4.png" style="max-width: 250px; max-height: 250px;">
 
                 </div>
                   <div class="column" >
@@ -297,7 +372,7 @@
       <section class="section has-background-light">
           <div class="container">
               <figure class="image center-how" >
-                  <img src="./assets/img/endingtheride.svg" style="max-width: 400px; max-height: 200px;" alt="app showcasing how to end ride">
+                  <img src="./assets/img/endingtheride.svg" style="max-width: 400px; max-height: 200px;">
                   <div class="columns" >
                       <div class="column">
                         <div class="notification is-info">
@@ -334,15 +409,14 @@
 
 
   <!-- Ilger page start -->
-  <section id="Safety" class="hero is-warning is-medium">
-    <div class="hero-body safetyParalax parallax">
+      <div class="hero-body how-head">
       <div class="container has-text-centered">
-        <h1 class="title">
+        <p class="title">
           EAGLE
-        </h1>
-        <h2 class="subtitle">
+        </p>
+        <p class="subtitle">
           Be <b>Bold</b> Be <b>Safe</b>
-        </h2>
+        </p>
       </div>
     </div>
   </section>
@@ -377,7 +451,7 @@
       </div>
     </div>
   </section>
-<!-- Ilger page end -->
+  <!-- Ilger page end -->
 
 
 <!-- start Jan page -->
@@ -386,44 +460,44 @@
   <section id="Locations" class="hero is-info is-fullheight">
     <!--header Locations-->
     <div class="hero-body location-head">
-      <div class="container has-text-centered">
-        <div class="column is-6 is-offset-3">
-          <h1 class="title">
-            Locations
-          </h1>
-          <h2 class="subtitle">
-            We are available all over the world.
-          </h2>
+        <div class="container has-text-centered">
+            <div class="column is-6 is-offset-3">
+                <h1 class="title">
+                    Locations
+                </h1>
+                <h2 class="subtitle">
+                    We are available all over the world.
+                </h2>
+            </div>
         </div>
-      </div>
     </div>
   </section>
 
   <div class="columns is-centered" style="margin-top: 10px">
-    <div class="column is-half">
-      <article class="media">
+      <div class="column is-half">
+    <article class="media">
         <figure class="media-left">
         <p class="image is-64x64">
-            <img src="assets/img/jetpacklogoEditFull.png" alt="company logo">
+            <img src="assets/img/jetpacklogoEditFull.png">
         </p>
         </figure>
         <div class="media-content">
-          <div class="content">
+        <div class="content">
             <p style="color:hsl(48, 100%, 67%)">
-              From its beginnings, Eagle & CO has grown from a small private limited company into a nationally renowned organization. It is on the final stages of preparations to venture into the vast depths of space. Our property development business is helping thousands if not millions of citizens to navigate trough their cities without any form of holdup, stress-free and on top of that helping boost the state economy.            </p>
-            </div>
-          </article>
+            From its beginnings, Eagle & CO has grown from a small private limited company into a nationally renowned organization. It is on the final stages of preparations to venture into the vast depths of space. Our property development business is helping thousands if not millions of citizens to navigate trough their cities without any form of holdup, stress-free and on top of that helping boost the state economy.            </p>
         </div>
-      </div>
+    </article>
+  </div>
+  </div>
 
-      <!--row 1 CONTINENTS-->
-      <div class="block" style="margin-top: 10px">
-        <div class="columns">
+  <!--row 1 CONTINENTS-->
+  <div class="block" style="margin-top: 10px">
+      <div class="columns">
           <div class="column">
               <div class="card" style="background:hsl(48, 100%, 67%)">
                   <div class="card-image">
                       <figure class="image">
-                          <img src="assets/img/Africa.PNG" alt="continent africa">
+                          <img src="assets/img/Africa.PNG">
                       </figure>
                   </div>
                   <div class="card-content">
@@ -434,139 +508,102 @@
                         <p>Africa’s total land area is approximately 11,724,000 square miles (30,365,000 square km), and the continent measures about 5,000 miles (8,000 km) from north to south and about 4,600 miles (7,400 km) from east to west. Even tough it's less populated, you will find our "Eagles" all over the continent.</p>
                     </div>
                   </div>
-            </div>
+              </div>
           </div>
           <div class="column">
             <div class="card" style="background:hsl(48, 100%, 67%)">
-              <div class="card-image">
-                <figure class="image">
-                  <img src="assets/img/America.PNG" alt="continent America">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="title is-4 no-padding">
-                  <p>America</p>
+                <div class="card-image">
+                    <figure class="image">
+                        <img src="assets/img/America.PNG">
+                    </figure>
                 </div>
-                <div class="content">
-                  <p>The major characteristic of the United States is probably its great variety. Its physical environment ranges from the Arctic to the subtropical, from the moist rain forest to the arid desert, from the rugged mountain peak to the flat prairie. Using Eagle to navigate these landscapes you'll feel as free as a bird.</p>
+                <div class="card-content">
+                    <div class="title is-4 no-padding">
+                        <p>America</p>
+                    </div>
+                    <div class="content">
+                        <p>The major characteristic of the United States is probably its great variety. Its physical environment ranges from the Arctic to the subtropical, from the moist rain forest to the arid desert, from the rugged mountain peak to the flat prairie. Using Eagle to navigate these landscapes you'll feel as free as a bird.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="column">
+        </div>
+        <div class="column">
             <div class="card"style="background:hsl(48, 100%, 67%)">
-              <div class="card-image">
-                <figure class="image">
-                  <img src="assets/img/Asia.PNG" alt="continent Asia">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="title is-4 no-padding">
-                  <p>Asia</p>
+                <div class="card-image">
+                    <figure class="image">
+                        <img src="assets/img/Asia.PNG">
+                    </figure>
                 </div>
-                <div class="content">
-                  <p>Asia has both the highest and the lowest points on the surface of Earth, is subject overall to the world’s widest climatic extremes, and, consequently, produces the most varied forms of vegetation and animal life on Earth. Yet while flying Eagle in these extreme circumstances it will feel like a breeze in the wind.</p>
+                <div class="card-content">
+                    <div class="title is-4 no-padding">
+                        <p>Asia</p>
+                    </div>
+                    <div class="content">
+                        <p>Asia has both the highest and the lowest points on the surface of Earth, is subject overall to the world’s widest climatic extremes, and, consequently, produces the most varied forms of vegetation and animal life on Earth. Yet while flying Eagle in these extreme circumstances it will feel like a breeze in the wind.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
       </div>
+  </div>
 
-      <!--Row 2 CONTINENTS-->
-      <div class="block">
-        <div class="columns">
-          <div class="column">
+  <!--Row 2 CONTINENTS-->
+  <div class="block">
+    <div class="columns">
+        <div class="column">
             <div class="card" style="background:hsl(48, 100%, 67%)">
-              <div class="card-image">
-                <figure class="image">
-                  <img src="assets/img/Australia.PNG" alt="continent australia">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="title is-4 no-padding">
-                  <p>Australia</p>
+                <div class="card-image">
+                    <figure class="image">
+                        <img src="assets/img/Australia.PNG">
+                    </figure>
                 </div>
-                <div class="content">
-                  <p>The most striking characteristics of Australia's vast country are its global isolation, its low relief, and the aridity of much of its surface. It can be a hassle evading the wildlife, whom is said to be very deadly. Eagle will solve these problems for you and allows for a quick trip trough the extreme wildlife.</p>
+                <div class="card-content">
+                    <div class="title is-4 no-padding">
+                        <p>Australia</p>
+                    </div>
+                    <div class="content">
+                        <p>The most striking characteristics of Australia's vast country are its global isolation, its low relief, and the aridity of much of its surface. It can be a hassle evading the wildlife, whom is said to be very deadly. Eagle will solve these problems for you and allows for a quick trip trough the extreme wildlife.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="column">
-            <div class="card" style="background:hsl(48, 100%, 67%)">
+        </div>
+        <div class="column">
+          <div class="card" style="background:hsl(48, 100%, 67%)">
               <div class="card-image">
                   <figure class="image">
-                      <img src="assets/img/Europe.PNG" alt="continent Europe">
+                      <img src="assets/img/Europe.PNG">
                   </figure>
               </div>
               <div class="card-content">
-                <div class="title is-4 no-padding">
-                  <p>Europe</p>
-                </div>
-                <div class="content">
-                  <p>Europe, second smallest of the world’s continents, composed of the westward-projecting peninsulas of Eurasia and occupying nearly one-fifteenth of the world’s total land area. It is well known for it's trafic jams that go miles and on. Using Eagle will solve these problems for you.</p>
+                  <div class="title is-4 no-padding">
+                      <p>Europe</p>
+                  </div>
+                  <div class="content">
+                    <p>Europe, second smallest of the world’s continents, composed of the westward-projecting peninsulas of Eurasia and occupying nearly one-fifteenth of the world’s total land area. It is well known for it's trafic jams that go miles and on. Using Eagle will solve these problems for you.</p>
                 </div>
               </div>
-            </div>
           </div>
-          <div class="column">
-            <div class="card" style="background:hsl(48, 100%, 67%)">
+      </div>
+      <div class="column">
+          <div class="card" style="background:hsl(48, 100%, 67%)">
               <div class="card-image">
                   <figure class="image">
-                      <img src="assets/img/Space.PNG" alt="space city">
+                      <img src="assets/img/Space.PNG">
                   </figure>
               </div>
               <div class="card-content">
-                <div class="title is-4 no-padding">
-                  <p>Space</p>
-                </div>
-                <div class="content">
-                  <p>Humans have always looked at the heavens and wondered about the nature of the objects seen in the night sky. With the development of Eagle and the advances in electronics and other technologies in the 20th century, it became possible to send people above Earth’s atmosphere into outer space. </p>
-                </div>
+                  <div class="title is-4 no-padding">
+                      <p>Space</p>
+                  </div>
+                  <div class="content">
+                      <p>Humans have always looked at the heavens and wondered about the nature of the objects seen in the night sky. With the development of Eagle and the advances in electronics and other technologies in the 20th century, it became possible to send people above Earth’s atmosphere into outer space. </p>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
       </div>
     </div>
-
-<!-- Footer -->
-  <footer class="section has-background-black">
-    <div class="container">
-      <div class="columns">
-        <div class="column">
-          <div class="notification is-white">
-            <h1 class="title is-size-4 ">Contact</h1>
-            <span class="icons">&#9742;</span><a href="tel:+32 499829854"> +32499829854</a><br>
-            <span class="icons">&#9993;</span><a href="mailto:johnnycalderondeveloper@gmail.com">  E-mail</a><br>
-            <span class="icons">&#x1f4cc;</span><a href="https://thebeacon.eu/">Sint-Pietersvliet 7, 2000 Antwerp, Belgium </a><br>
-          </div>
-        </div>
-        <div class="column">
-          <div class="notification is-white">
-            <h1 class="title is-size-4">About</h1>
-            <p>Jetpack startup in the heart of Antwerp</p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="notification is-white">
-            <span class="icon">
-              <i class="fab fa-github"></i>
-            <a href="https://github.com/ZukisaNante/EAGLE" target="_blank">GitHub</a>
-             </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="content has-text-centered">
-      <div class="googlemap">
-        <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.6565010619265!2d4.398837050851127!3d51.225403179489504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f6591c88f09d%3A0x31d6c38718baba03!2sThe+Beacon!5e0!3m2!1sen!2sbe!4v1557908499262!5m2!1sen!2sbe" title="location google maps"
-        width="300" height="200" frameborder="0" style="border:0;" allowfullscreen></iframe>
-      </div>
-    </div>
-  </footer>
+</div>
+</div>
 
 <!-- Burger menu script -->
 <script type="text/javascript">

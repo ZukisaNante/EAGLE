@@ -35,11 +35,13 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 - Our motto "safety comes first" is one of the priorities we commit ourselves to serve.
 - Instructions are also provided in our app and at the station when you pick up your selected choice.
 - Our jetpacks cannot operate or start the engine without alcohol and drugs test first.
-- Provided you are under any influence of any of the above mentioned substances the system will freeze the motor, meaning it won't work.
+- Provided you are under any influence of any of the above mentioned substances the system will freeze the motor, meaning it won't work(See the following image):
+
+![alt text](https://www.researchgate.net/profile/Marcelo_Toso/publication/271712726/figure/fig2/AS:614224732622865@1523453996404/Part-of-the-Sequence-Diagram-Implementation-in-accordance-with-IEC-61131-The.png "The Future")
 
 # Locations
 
-![alt text](https://www.researchgate.net/profile/Marcelo_Toso/publication/271712726/figure/fig2/AS:614224732622865@1523453996404/Part-of-the-Sequence-Diagram-Implementation-in-accordance-with-IEC-61131-The.png "The Future")
+![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/eagle.jpg "The Future")
 
 > We are situated everywhere in the world as you can see from our app.
 > Our opening times are the same at every location globally.

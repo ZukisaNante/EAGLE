@@ -1,0 +1,99 @@
+.ZukisaParallax {
+  /* The image used */
+  padding: 70px;
+  background-image: url("../img/eagle.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flip-card {
+  background-color: transparent;
+  width:250px;
+  height: 300px;
+  perspective: 1000px;
+  padding:30px;
+
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  z-index: 2;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+/* Johnny's inline style */
+.parallax {
+  background: url(assets/img/howitworks2.jpg) center/cover;
+}
+.center-how{
+  display: flex;
+  justify-content: left;
+  align-items:center;
+}
+
+.center-how{
+  display: flex;
+  justify-content: left;
+  align-items:center;
+}
+
+.howitworksParalax {
+  background: url(../img/howitworks2.jpg) center/cover;
+}
+/* safety style Ilger */
+.safetyParalax {
+  background: url(../img/safetyparalax.jpeg) center/cover;
+}
+/* Location style Jan*/
+.location-head {
+  background: url(../img/Locationsheader.jpeg) center/cover;
+}
+
+/* paralax scrolling img */
+.parallax {
+  /* The image used see above under .-topic-Paralax */
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

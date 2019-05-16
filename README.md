@@ -105,9 +105,10 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 > - EAGLE MIT Licence (Copyright (c) 2019 Zukisa, Johnny, Ilger, Jan)
 > - Jetpack Speeder Image rights:Copyright © 2019 JetPack Aviation  https://jetpackaviation.com/
 > - Eagle Image rights: By Erin Blakemore February 24, 2016  https://www.smithsonianmag.com/smart-news/what-killed-13-bald-eagles-maryland-180958208/
+> - eagle image copyrights: https://airfreshener.club/page/tos
 
 ---
-Any questions? If yes, then give us a call from the mobile number available from our website (see the link at the top of the page.)
+> Any questions? If yes, then give us a call from the mobile number available from our website (see the link at the top of the page.)
 
 
 

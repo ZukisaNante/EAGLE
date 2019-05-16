@@ -6,123 +6,10 @@
     <title>EAGLE</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- Zukisa css -->
-    <!-- Johnny CSS -->
-    <link rel="stylesheet" type="text/css" href="./assets/JohnnyCSS/howitworks.css">
-    <link rel="stylesheet" href="Zukisacss/main.css">
-
-    <style>
-      /*Zukisa style*/
-      .parallax {
-  /* The image used */
-  background-image: url("assets/img/eagle.jpg");
-  padding: 70px;
-
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: initial;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.flip-card {
-  background-color: transparent;
-  width:250px;
-  height: 300px;
-  perspective: 1000px;
-  padding:30px;
-
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-  z-index: 2;
-}
-
-.flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
-  z-index: 1;
-}
-
-
-
-    /* Johnny's inline style */
-      .how-head {
-       background: url(assets/img/howitworks2.jpg) center/cover;
-      }
-      .center-how{
-        display: flex;
-      justify-content: left;
-      align-items:center;
-      }
-    /* end Johhny style */
-    /* howitworks style Johnny*/
-    .howitworksParalax {
-      background: url(assets/img/howitworks2.jpg) center/cover;
-    }
-    .center-how{
-      display: flex;
-    justify-content: left;
-    align-items:center;
-    }
-    /* safety style Ilger */
-    .safetyParalax {
-      background: url(assets/img/safetyparalax.jpeg) center/cover;
-    }
-
-
-    /* Location style Jan*/
-    .location-head {
-        background: url(assets/img/Locationsheader.jpeg) center/cover;
-    }
-
-
-    /* paralax scrolling img */
-    .how-head {
-      /* The image used see above under .-topic-Paralax */
-
-      /* Set a specific height */
-      height: 500px;
-
-      /* Create the parallax scrolling effect */
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      }
-
-    </style>
-
+    <link rel="stylesheet" href="assets/css/master.css">
 </head>
 </body>
-
-   <nav class="navbar is-fixed-top is-warning">
+  <nav class="navbar is-fixed-top is-warning">
      <div class="container">
        <div class="navbar-brand">
          <a class="navbar-item" href="#Home">
@@ -144,120 +31,114 @@
        </div>
      </div>
    </nav>
+<!-- start Zukisa page -->
+   <section id="Home" class="hero is-large is-warning">
+     <div class="hero-body">
+       <div class="card-deck">
+         <div class="card">
+           <img class="card-img-top" src="assets/img/history.jpg" alt="Card image cap">
+           <div class="card-body">
+             <h5 class="card-title">Engineer Harold Graham</h5>
+             <p class="card-text">Engineer Harold Graham, of Buffalo, N.Y., glides over a parked car during a demonstration of a rocket-powered jet pack, outside of the Pentagon in Arlington ....</p>
+             <p class="card-text"><small class="text-muted"><a href="https://www.bloomberg.com/research/stocks/private/person.asp?personId=59145037&privcapId=21942916&previousCapId=7960535&previousTitle=Mxi%20Technologies%20Ltd." class="href">Engineer Harold Graham</a></small></p>
+           </div>
+         </div>
+         <div class="card">
+           <img class="card-img-top" src="assets/img/against_car.jpg" alt="Card image cap">
+           <div class="card-body">
+             <h5 class="card-title">JetPack vs Cars</h5>
+             <p class="card-text">Our idea is to avoid traffic. Cars are comfortable and may look safer than a JetPack but
+               a JetPack provides better mobility, nice view, dependebility, and etc.
+             </p>
+             <div class="iframe-container">
 
-    <!-- start Zukisa page -->
-    <section id="Home" class="hero is-large is-warning">
-      <div class="hero-body">
-        <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="assets/img/history.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Engineer Harold Graham</h5>
-                <p class="card-text">Engineer Harold Graham, of Buffalo, N.Y., glides over a parked car during a demonstration of a rocket-powered jet pack, outside of the Pentagon in Arlington ....</p>
-                <p class="card-text"><small class="text-muted"><a href="https://www.bloomberg.com/research/stocks/private/person.asp?personId=59145037&privcapId=21942916&previousCapId=7960535&previousTitle=Mxi%20Technologies%20Ltd." class="href">Engineer Harold Graham</a></small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="assets/img/against_car.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">JetPack vs Cars</h5>
-                <p class="card-text">Our idea is to avoid traffic. Cars are comfortable and may look safer than a JetPack but
-                  a JetPack provides better mobility, nice view, dependebility, and etc.
-                </p>
-                <div class="iframe-container">
+               <iframe class="iframe" width="150" height="100" src="https://www.youtube.com/embed/-kB-BGMXxZc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="
+               width: 100%;
+               height: 100%;
+               "></iframe>
 
-                <iframe class="iframe" width="150" height="100" src="https://www.youtube.com/embed/-kB-BGMXxZc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="
-                width: 100%;
-                height: 100%;
-            "></iframe>
+             </div>
+           </div>
+         </div>
+         <div class="card">
+           <img class="card-img-top" src="assets/img/bike.jpeg" alt="Card image cap">
+           <div class="card-body">
+             <h5 class="card-title">JetPack Speeder</h5>
+             <p class="card-text">One of the coolest things to do and with the enhancements of comfortability and safety.</p>
+             <p>Very high speed (faster than helicopter)</p>
+             <p>Fully autonomous with obstacle detection and collision avoidance and auto flight planning,
+               it can go as high as 15,000 ft </p>
+               <p class="card-text"><small class="text-muted"><a href="https://www.youtube.com/watch?v=0BgbPilrsyw" class="href">JetPack Speeder</a></small></p>
+             </div>
+           </div>
+         </div>
+         <div id="info">
+           <h2>Extra Information</h2>
+           <p>Our opening hours are as from 9am - 6pm world wide, but our help desk is 24/7.</p>
+           <span><a href="tel:+32489356786">Call us free on +32489356786!</a></span>
+         </div>
+       </div>
 
-              </div>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="assets/img/bike.jpeg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">JetPack Speeder</h5>
-                <p class="card-text">One of the coolest things to do and with the enhancements of comfortability and safety.</p>
-                <p>Very high speed (faster than helicopter)</p>
-                <p>Fully autonomous with obstacle detection and collision avoidance and auto flight planning,
-                  it can go as high as 15,000 ft </p>
-                <p class="card-text"><small class="text-muted"><a href="https://www.youtube.com/watch?v=0BgbPilrsyw" class="href">JetPack Speeder</a></small></p>
-              </div>
-            </div>
-          </div>
-          <div id="info">
-          <h2>Extra Information</h2>
-          <p>Our opening hours are as from 9am - 6pm world wide, but our help desk is 24/7.</p>
-          <span><a href="tel:+32489356786">Call us free on +32489356786!</a></span>
-        </div>
-        </div>
+       <div class="hero-foot">
+         <nav class="tabs is-boxed is-fullwidth">
+           <div class="container">
+             <div class="parallax">
 
-      <div class="hero-foot">
-        <nav class="tabs is-boxed is-fullwidth">
-          <div class="container">
-              <div class="parallax">
-
-                <div class="card-deck">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                          <img src="assets/img/bike.jpeg" alt="Avatar" style="width:300px;height:250px;">
-                        </div>
-                        <div class="flip-card-back">
-                          <h3>Zukisa Nante</h3>
-                              <p>Jr Web Developer</p>
-                              <p>BeCode</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="assets/img/bike.jpeg" alt="Avatar" style="width:300px;height:250px;">
-                          </div>
-                          <div class="flip-card-back">
-                            <h3>Johhny</h3>
-                              <p>Jr Web Developer</p>
-                              <p>BeCode</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="flip-card">
-                          <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                              <img src="assets/img/bike.jpeg" alt="Avatar" style="width:300px;height:250px;">
-                            </div>
-                            <div class="flip-card-back">
-                              <h3>Ilger</h3>
-                              <p>Jr Web Developer</p>
-                              <p>BeCode</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                              <div class="flip-card-front">
-                                <img src="assets/img/bike.jpeg" alt="Avatar" style="width:300px;height:250px;">
-                              </div>
-                              <div class="flip-card-back">
-                                <h3>Jan</h3>
-                              <p>Jr Web Developer</p>
-                              <p>BeCode</p>
-                              </div>
-                            </div>
-                          </div>
-
-              </div>
-
-              </div>
-
-          </div>
-        </nav>
-
-      </div>
-
-    </section>
+               <div class="card-deck">
+                 <div class="flip-card">
+                   <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                       <img src="assets/img/bike.jpeg" alt="Avatar" style="width:300px;height:250px;">
+                     </div>
+                     <div class="flip-card-back">
+                       <h3>Zukisa Nante</h3>
+                       <p>Jr Web Developer</p>
+                       <p>BeCode</p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="flip-card">
+                   <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                       <img src="assets/img/bike.jpeg" alt="Avatar" style="width:300px;height:250px;">
+                     </div>
+                     <div class="flip-card-back">
+                       <h3>Johhny</h3>
+                       <p>Jr Web Developer</p>
+                       <p>BeCode</p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="flip-card">
+                   <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                       <img src="assets/img/bike.jpeg" alt="Avatar" style="width:300px;height:250px;">
+                     </div>
+                     <div class="flip-card-back">
+                       <h3>Ilger</h3>
+                       <p>Jr Web Developer</p>
+                       <p>BeCode</p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="flip-card">
+                   <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                       <img src="assets/img/bike.jpeg" alt="Avatar" style="width:300px;height:250px;">
+                     </div>
+                     <div class="flip-card-back">
+                       <h3>Jan</h3>
+                       <p>Jr Web Developer</p>
+                       <p>BeCode</p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </nav>
+       </div>
+     </section>
 <!-- end zukisa page -->
 
 

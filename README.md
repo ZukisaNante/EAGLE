@@ -99,10 +99,6 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 > - Jetpack Speeder Image rights:Copyright © 2019 JetPack Aviation  https://jetpackaviation.com/
 > - Eagle Image rights: By Erin Blakemore February 24, 2016  https://www.smithsonianmag.com/smart-news/what-killed-13-bald-eagles-maryland-180958208/
 
-
-Read more: https://www.smithsonianmag.com/smart-news/what-killed-13-bald-eagles-maryland-180958208/#WxM7qvJdW0fd5Qkz.99
-Give the gift of Smithsonian magazine for only $12! http://bit.ly/1cGUiGv
-Follow us: @SmithsonianMag on Twitter
 ---
 Any questions? If yes, then give us a call from the mobile number available from our website (see the link at the top of the page.)
 

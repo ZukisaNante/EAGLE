@@ -29,20 +29,87 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 
 # Safety
 
-![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/jetpack-kit.jpg"The Future")
+
+![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/jetpack-kit.jpg "The Future")
+
 
 - All our jetpacks abide to the ISO standards under International Electrotechnical Commission (IEC).
 - Our motto "safety comes first" is one of the priorities we commit ourselves to serve.
 - Instructions are also provided in our app and at the station when you pick up your selected choice.
 - Our jetpacks cannot operate or start the engine without alcohol and drugs test first.
-- Provided you are under any influence of any of the above mentioned substances the system will freeze the motor, meaning it won't work.
+
+- Provided you are under any influence of any of the above mentioned substances the system will freeze the motor, meaning it won't work(See the following image):
+
+![alt text](https://www.researchgate.net/profile/Marcelo_Toso/publication/271712726/figure/fig2/AS:614224732622865@1523453996404/Part-of-the-Sequence-Diagram-Implementation-in-accordance-with-IEC-61131-The.png "The Future")
 
 # Locations
 
-![alt text](https://www.researchgate.net/profile/Marcelo_Toso/publication/271712726/figure/fig2/AS:614224732622865@1523453996404/Part-of-the-Sequence-Diagram-Implementation-in-accordance-with-IEC-61131-The.png "The Future")
+![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/Locationsheader.jpeg "The Future")
+
 
 > We are situated everywhere in the world as you can see from our app.
 > Our opening times are the same at every location globally.
 > We are open 24/7.
 > At all times you sould be able to get hold of our help desk!
 >  :+1: 
+
+
+---
+
+## BeCode Assignment
+
+> - Junior Web Developers were given a task to make a project by inventing a company and design its webside.
+> - They were a group of four with their names appearing on their website.
+> - Publish the website on github (free publishing, community platform and stimulates learning)
+
+---
+
+### Assignment Objectives
+
+> - To revist and master the HTML, CSS, Sass, and Bootstrap Framework skills learnt far-off.
+> - To work with templates.
+> - To work in a team and individually.
+> - To be able to make decisions on your own and as a group.
+---
+### Acquired Skills
+
+> - Soft skills
+> - Communication skills
+> - Listening Skills and tolerance.
+---
+
+### Conlusion
+
+> After working together we have realised the importance of communication skills.
+> We also, found ways to avoid conflict on disagreements by looking at the positive side of any suggestion and take it as challenge.
+> Furthermore, during our research it became clear that the future means of transportation in the world may lead to minimising the climate challenges.
+> That being said, it is obvious that we need to work together to accomplish this and involve more of the government sectors. Government will play a big role here as jetpacks can't be owned by everyone (they are expensive to own, therefore, we can share them). Therefore, financial support will play a big role on establishing our business as we plan to provide our transportation means to the poor, richer, young and older and moreover to diverse communities.
+> We conlude by encouraging every individual to support this plan and to think about the future of their children.
+> What the world faces now is not something that can be undone in a day or a year but continuously and together we can. 
+> Climate change is real and our current mobility system is contributing a lot to it and to stress levels that the employees and employers get due to traffic jam and accidents. Safety first and let us brighten our future by taking initiative and responsibility to our hands. Jetpack mobility is the key.
+
+---
+# References
+
+## Now let's play
+
+> - https://www.youtube.com/watch?v=GQMGq8gk6QM
+> - https://www.youtube.com/watch?v=jw5KaEshU3g
+> - https://www.youtube.com/watch?v=BYXQQM1kZRU
+> - https://www.youtube.com/watch?v=1juc7_7gnB0
+> - https://www.youtube.com/watch?v=WQzLrvz4DKQ
+---
+### LICENSE TERMS
+
+> - Bulma Framework (Copyright (c) 2019 Jeremy Thomas)
+> - EAGLE MIT Licence (Copyright (c) 2019 Zukisa, Johnny, Ilger, Jan)
+> - Jetpack Speeder Image rights:Copyright © 2019 JetPack Aviation  https://jetpackaviation.com/
+> - Eagle Image rights: By Erin Blakemore February 24, 2016  https://www.smithsonianmag.com/smart-news/what-killed-13-bald-eagles-maryland-180958208/
+
+---
+Any questions? If yes, then give us a call from the mobile number available from our website (see the link at the top of the page.)
+
+
+
+
+

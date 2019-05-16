@@ -123,47 +123,30 @@
 
 
     <!-- start Zukisa page -->
-    <section class="hero is-warning is-large">
-      <div class="hero-head">
-        <nav class="navbar">
-          <div class="container">
-            <div class="navbar-brand">
-              <a class="navbar-item">
-                <img src="assets/img/jetpacklogoEditFull.png" alt="EAGLE jetpack logo">
-              </a>
-              <span class="navbar-burger burger" data-target="navbarMenuHeroB">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
-            </div>
-            <div id="navbarMenuHeroB" class="navbar-menu">
-              <div class="navbar-end">
-                <a class="navbar-item is-active">
-                  Home
-                </a>
-                <a class="navbar-item">
-                  How It Works
-                </a>
-                <a class="navbar-item">
-                  Safety
-                </a>
-                <a class="navbar-item">
-                    Locations
-                  </a>
-                <span class="navbar-item">
-                  <a class="button is-warning is-inverted">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span><a href="https://github.com/ZukisaNante/EAGLE" target="_blank"> GitHub</a>
-                     </span>
-                  </a>
-                </span>
-              </div>
-            </div>
+    <nav class="navbar is-fixed-top is-warning">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#Home">
+            <b>EAGLE</b>
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenu" style="display: fixed;">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="#Home" class="navbar-item">Home</a>
+            <a href="#HowItWorks" class="navbar-item">How it works</a>
+            <a href="#Safety" class="navbar-item">Safety</a>
+            <a href="#Locations" class="navbar-item">Locations</a>
           </div>
-        </nav>
+        </div>
+      </div>
+    </nav>
+    <section id="Safety" class="hero is-large is-warning">
+      <div class="hero-head  is-warning">
       </div>
 
       <div class="hero-body">
@@ -281,7 +264,7 @@
 
 
 <!-- start Johnny page -->
-<section class="hero is-info is-large">
+<section id="HowItWorks" class="hero is-info is-large">
 
   <div class="hero-body how-head howitworksParalax">
     <div class="container has-text-centered">
@@ -426,31 +409,6 @@
 
 
   <!-- Ilger page start -->
-  <section id="Safety" class="hero is-large is-warning">
-    <div class="hero-head  is-warning">
-      <nav class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="#Home">
-              <b>EAGLE</b>
-            </a>
-            <span class="navbar-burger burger" data-target="navbarMenu" style="display: fixed;">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar-end">
-              <a href="#Home" class="navbar-item">Home</a>
-              <a href="#HowItWorks" class="navbar-item">How it works</a>
-              <a href="#Safety" class="navbar-item">Safety</a>
-              <a href="#Locations" class="navbar-item">Locations</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
       <div class="hero-body how-head">
       <div class="container has-text-centered">
         <p class="title">
@@ -499,7 +457,7 @@
 <!-- start Jan page -->
 
 <div style="background:rgb(11, 7, 43)">
-  <section class="hero is-info is-fullheight">
+  <section id="Locations" class="hero is-info is-fullheight">
     <!--header Locations-->
     <div class="hero-body location-head">
         <div class="container has-text-centered">

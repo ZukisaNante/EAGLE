@@ -4,7 +4,7 @@ https://ilger.github.io/EAGLE/
 ![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/eagle.jpg "The Future")
 
 > Eagle company was established by four BeCode junior web developers.
-> They all hold qualifications from different desciplines but web development brings them together.
+> They all hold qualifications from different disciplines but web development brings them together.
 > After long discussions on how the company should have impact on our society and economy they decided to come up with an idea on how to overcome traffic and improve environment to avoid climate change disasters.
 
 # Company vision and mission
@@ -29,12 +29,15 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 
 # Safety
 
+
 ![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/jetpack-kit.jpg "The Future")
+
 
 - All our jetpacks abide to the ISO standards under International Electrotechnical Commission (IEC).
 - Our motto "safety comes first" is one of the priorities we commit ourselves to serve.
 - Instructions are also provided in our app and at the station when you pick up your selected choice.
 - Our jetpacks cannot operate or start the engine without alcohol and drugs test first.
+
 - Provided you are under any influence of any of the above mentioned substances the system will freeze the motor, meaning it won't work(See the following image):
 
 ![alt text](https://www.researchgate.net/profile/Marcelo_Toso/publication/271712726/figure/fig2/AS:614224732622865@1523453996404/Part-of-the-Sequence-Diagram-Implementation-in-accordance-with-IEC-61131-The.png "The Future")
@@ -43,11 +46,13 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 
 ![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/Locationsheader.jpeg "The Future")
 
+
 > We are situated everywhere in the world as you can see from our app.
 > Our opening times are the same at every location globally.
 > We are open 24/7.
 > At all times you sould be able to get hold of our help desk!
 >  :+1: 
+
 
 ---
 
@@ -103,6 +108,7 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 
 ---
 Any questions? If yes, then give us a call from the mobile number available from our website (see the link at the top of the page.)
+
 
 
 

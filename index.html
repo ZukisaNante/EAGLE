@@ -421,40 +421,32 @@
 
 
   <!-- Ilger page start -->
-  <section class="hero is-large is-warning">
-    <div class="hero-head">
+  <section id="Safety" class="hero is-large is-warning">
+    <div class="hero-head  is-warning">
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item">
+            <a class="navbar-item" href="#Home">
               <b>EAGLE</b>
             </a>
-            <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+            <span class="navbar-burger burger" data-target="navbarMenu" style="display: fixed;">
               <span></span>
               <span></span>
               <span></span>
             </span>
           </div>
-          <div id="navbarMenuHeroB" class="navbar-menu">
+          <div id="navbarMenu" class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item">
-                Home
-              </a>
-              <a class="navbar-item">
-                How it works
-              </a>
-              <a class="navbar-item">
-                Safty
-              </a>
-              <a class="navbar-item">
-                Location
-              </a>
+              <a href="#Home" class="navbar-item">Home</a>
+              <a href="#HowItWorks" class="navbar-item">How it works</a>
+              <a href="#Safety" class="navbar-item">Safety</a>
+              <a href="#Locations" class="navbar-item">Locations</a>
             </div>
           </div>
         </div>
       </nav>
     </div>
-      <div class="hero-body how-head safetyParalax">
+      <div class="hero-body how-head">
       <div class="container has-text-centered">
         <p class="title">
           EAGLE
@@ -649,6 +641,35 @@
     </div>
 </div>
 </div>
+
+<!-- Burger menu script -->
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+
+});
+</script>
 
   <script src="../js/bulma.js"></script>
   <script src="../js/tabs.js"></script>

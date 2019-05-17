@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .ZukisaParallax {
   /* The image used */
   padding: 70px;

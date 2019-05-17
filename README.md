@@ -1,7 +1,7 @@
 https://ilger.github.io/EAGLE/
 
 # EAGLE Company
-![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/eagle.jpg "The Future")
+![alt text](assets/img/eagle.webp "The Future")
 
 > Eagle company was established by four BeCode junior web developers.
 > They all hold qualifications from different disciplines but web development brings them together.
@@ -14,10 +14,10 @@ https://ilger.github.io/EAGLE/
 > Our mission is to provide means of better mobility by minimising and eradicating air pollution, stress caused by traffic on daily basis commuting to and from work and to bring joy and fun. Wouldn't be fun to fly and not stuck in traffic and seeing nice views from the sky? Of course it would! We hope to work with government institutions, small and big companies and organisations. Moreover, to reduce fatal road accidents and initiating future transportation means.
 ---
 <a href="https://www.youtube.com/watch?v=0BgbPilrsyw=JETPACK SPEEDER
-" target=""><img src="https://www.youtube.com/watch?v=URgznwTph6M" 
+" target=""><img src="https://www.youtube.com/watch?v=URgznwTph6M"
 alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 
-![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/bike.jpeg "The Future")
+![alt text](assets/img/bike.webp "The Future")
 
 # How it works!
 
@@ -30,7 +30,7 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 # Safety
 
 
-![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/jetpack-kit.jpg "The Future")
+![alt text](assets/img/jetpack-kit.webp "The Future")
 
 
 - All our jetpacks abide to the ISO standards under International Electrotechnical Commission (IEC).
@@ -44,14 +44,14 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 
 # Locations
 
-![alt text](https://github.com/ZukisaNante/EAGLE/blob/master/assets/img/Locationsheader.jpeg "The Future")
+![alt text](assets/img/Locationsheader.webp "The Future")
 
 
 > We are situated everywhere in the world as you can see from our app.
 > Our opening times are the same at every location globally.
 > We are open 24/7.
 > At all times you sould be able to get hold of our help desk!
->  :+1: 
+>  :+1:
 
 
 ---
@@ -85,7 +85,7 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 > Furthermore, during our research it became clear that the future means of transportation in the world may lead to minimising the climate challenges.
 > That being said, it is obvious that we need to work together to accomplish this and involve more of the government sectors. Government will play a big role here as jetpacks can't be owned by everyone (they are expensive to own, therefore, we can share them). Therefore, financial support will play a big role on establishing our business as we plan to provide our transportation means to the poor, richer, young and older and moreover to diverse communities.
 > We conlude by encouraging every individual to support this plan and to think about the future of their children.
-> What the world faces now is not something that can be undone in a day or a year but continuously and together we can. 
+> What the world faces now is not something that can be undone in a day or a year but continuously and together we can.
 > Climate change is real and our current mobility system is contributing a lot to it and to stress levels that the employees and employers get due to traffic jam and accidents. Safety first and let us brighten our future by taking initiative and responsibility to our hands. Jetpack mobility is the key.
 
 ---
@@ -109,8 +109,3 @@ alt="JETPACK SPEEDER" width="240" height="180" border="10" /></a>
 
 ---
 > Any questions? If yes, then give us a call from the mobile number available from our website (see the link at the top of the page.)
-
-
-
-
-

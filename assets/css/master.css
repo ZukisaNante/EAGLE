@@ -1,7 +1,7 @@
 .ZukisaParallax {
   /* The image used */
   padding: 70px;
-  background-image: url("../img/eagle-min.jpg");
+  background-image: url("../img/eagle.webp");
 
   /* Set a specific height */
   min-height: 500px;
@@ -62,7 +62,7 @@ height: 100%
 
 /* Johnny's inline style */
 .parallax {
-  background: url(assets/img/howitworks2.jpg) center/cover;
+  background: url("assets/img/howitworks2.webp") center/cover;
 }
 .center-how{
   display: flex;
@@ -77,15 +77,15 @@ height: 100%
 }
 
 .howitworksParalax {
-  background: url(../img/howitworks2-min.jpg) center/cover;
+  background: url("../img/howitworks2.webp") center/cover;
 }
 /* safety style Ilger */
 .safetyParalax {
-  background: url(../img/safetyparalax-min.jpeg) center/cover;
+  background: url("../img/safetyparalax.webp") center/cover;
 }
 /* Location style Jan*/
 .location-head {
-  background: url(../img/Locationsheader-min.jpeg) center/cover;
+  background: url("../img/Locationsheader.webp") center/cover;
 }
 
 /* paralax scrolling img */
